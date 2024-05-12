@@ -1,0 +1,472 @@
+/* app.css */
+/* App.css */
+/* App.css */
+
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5); /* Add some transparency to navbar */
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Rest of the CSS remains the same */
+
+
+.homepage-container {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #573348;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  color: #fff;
+  margin: 0;
+}
+
+.navLinks {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 10px;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.link:hover {
+  background-color: #555;
+}
+
+.logoutButton {
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logoutButton:hover {
+  background-color: darkred;
+}
+
+.homepage-content {
+  margin-top: 50px;
+}
+
+.homepage-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.homepage-content p {
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navLinks {
+    margin-top: 20px;
+  }
+
+  .link {
+    margin: 10px 0;
+  }
+}
+
+
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .logo {
+    color: #fff;
+    margin: 0;
+  }
+  
+  .navLinks {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .link:hover {
+    background-color: #555;
+  }
+  
+  .logoutButton {
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logoutButton:hover {
+    background-color: darkred;
+  }
+  
+  /* signin */
+
+  .signin-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .signin-title {
+    margin-bottom: 20px;
+  }
+  
+  .signin-input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .signin-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .signin-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .signin-message {
+    color: blue;
+    margin-top: 10px;
+  }
+  
+.signin-link-container {
+    margin-top: 10px;
+  }
+  
+  .signin-link {
+    color: #007bff; /* Blue color */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+    border: 2px solid #007bff; /* Blue border */
+    padding: 2px 8px; /* Adjusted padding */
+    border-radius: 8px; /* Rounded corners */
+    margin: 10px 10px;
+  }
+  
+  
+  .signin-link:hover {
+    color: #0056b3; /* Darker shade of blue on hover */
+  }
+  
+  /* SIGNUP */
+  /* App.css */
+
+.signup-container {
+    text-align: center;
+    padding: 20px;
+    
+  }
+  
+  .signup-input {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .signup-button {
+    background-color: #28a745; /* Green color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .signup-button:hover {
+    background-color: #218838; /* Darker shade of green on hover */
+  }
+  
+  .signup-message {
+    color: blue;
+    margin-top: 10px;
+  }
+  
+  .signup-link {
+    color: #007bff; /* Blue color */
+    text-decoration: none;
+    border: 2px solid #007bff; /* Blue border */
+    padding: 2px 8px; /* Adjusted padding */
+    border-radius: 8px; /* Rounded corners */
+    margin: 10px 10px;
+  }
+  
+  .signup-link:hover {
+    color: #0056b3; /* Darker shade of blue on hover */
+    border-color: #0056b3; /* Darker shade of blue border on hover */
+  }
+  
+.redirect-buttons {
+    margin-top: 20px;
+  }
+  
+  .redirect-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .redirect-button:hover {
+    background-color: #218838;
+  }
+  
+  /* ProductList.jsx  */
+  /* App.css */
+
+.product-list-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .product-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .product-item {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  /* AddProductForm.css */
+ /* AddProductForm.css */
+.add-product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .input-container {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .add-product-input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-product-checkbox {
+    margin-right: 5px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center; /* Align buttons horizontally in the center */
+    width: 100%;
+    flex-wrap: wrap; /* Enable wrapping for small screens */
+    margin-top: 20px; /* Add a fixed margin between container and buttons */
+  }
+  
+  .add-product-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .redirect-buttons {
+    margin-top: 20px;
+  }
+  
+  .redirect-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .redirect-button:hover {
+    background-color: #218838;
+  }
+  
+  
+  /* UpdateProductForm.css */
+
+.update-product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .update-product-select {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .update-product-input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .update-product-checkbox-label {
+    margin-bottom: 10px;
+  }
+  
+  .update-product-checkbox {
+    margin-right: 5px;
+  }
+  
+  .update-product-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .update-product-button:hover {
+    background-color: #0056b3;
+  }
+  .update-product-nav-buttons {
+    margin-top: 20px;
+  }
+  
+  .update-product-nav-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .update-product-nav-button:hover {
+    background-color: #0056b3;
+  }
+  .update-product-button {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px; /* Add margin-right */
+    margin-bottom: 20px; /* Add margin-bottom */
+  }
+
+   /* Product list */
+   /* App.css */
+
+.product-list-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .product-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .product-item {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .nav-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .nav-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .nav-button:hover {
+    background-color: #0056b3;
+  }
+  
